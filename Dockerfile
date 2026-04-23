@@ -2,8 +2,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
 WORKDIR /app
 
-# Copy solution và các file project để restore
-COPY StudentManagementSystem.sln ./
+# Sửa lại tên file .slnx ở đây
+COPY StudentManagementSystem.slnx ./
 COPY src/Web/Web.csproj src/Web/
 COPY src/Application/Application.csproj src/Application/
 COPY src/Domain/Domain.csproj src/Domain/
@@ -24,7 +24,6 @@ FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS runtime
 WORKDIR /app
 COPY --from=build /out .
 
-# Cấu hình port (Render sẽ gán cổng qua biến môi trường PORT, ASP.NET Core sẽ tự nhận diện nếu cấu hình đúng)
 ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 
