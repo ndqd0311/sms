@@ -33,7 +33,7 @@ public class Program
             app.MapOpenApi();
             app.MapScalarApiReference();
         }
-
+        await app.InitialiseDatabaseAsync()
         app.Run();
     }
 }
