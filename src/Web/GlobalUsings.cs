@@ -1,0 +1,11 @@
+﻿global using Microsoft.AspNetCore.OpenApi;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.RateLimiting;
+global using Microsoft.OpenApi;
+global using MediatR;
+global using Scalar.AspNetCore;
+global using Application;
+global using Infrastructure;
+global using Web;
+global using Web.Infrastructure;
