@@ -1,6 +1,7 @@
 namespace Application.Features.BehaviorCategories.Queries.GetBehaviorCategoryById;
 
 using Application.Common.Exceptions;
+using Application.Features.BehaviorCategories.Queries.GetAllBehaviorCategories;
 
 public record GetBehaviorCategoryByIdQuery(int Id) : IRequest<BehaviorCategoryDto>;
 
