@@ -15,10 +15,7 @@ public class Program
 
         WebApplication app = builder.Build();
 
-        if (app.Environment.IsDevelopment())
-        {
-            await app.InitialiseDatabaseAsync();
-        }
+        await app.InitialiseDatabaseAsync();
 
         app.UseExceptionHandler();
         app.UseHttpsRedirection();
