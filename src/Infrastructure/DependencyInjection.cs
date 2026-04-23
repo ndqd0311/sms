@@ -18,6 +18,29 @@ public static class DependencyInjection
         string? connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
         Guard.Against.Null(connectionString, message: "Connection string not found.");
 
+        // Handle Render's postgres:// format
+        if (connectionString.StartsWith("postgres://", StringComparison.OrdinalIgnoreCase))
+        {
+            var databaseUri = new Uri(connectionString);
+            var userInfo = databaseUri.UserInfo.Split(':');
+
+            connectionString = $"Host={databaseUri.Host};" +
+                               $"Port={databaseUri.Port};" +
+                               $"Database={databaseUri.AbsolutePath.TrimStart('/')};" +
+                               $"Username={userInfo[0]};" +
+                               $"Password={userInfo[1]};" +
+                               $"SSL Mode=Require;" +
+                               $"Trust Server Certificate=true;";
+        }
+        else if (!builder.Environment.IsDevelopment())
+        {
+            // Enforce SSL for other formats in production
+            if (!connectionString.Contains("SSL Mode=", StringComparison.OrdinalIgnoreCase))
+            {
+                connectionString += ";SSL Mode=Require;Trust Server Certificate=true;";
+            }
+        }
+
         builder.Services.AddScoped<ISaveChangesInterceptor, DispatchDomainEventsInterceptor>();
 
         builder.Services.AddDbContext<ApplicationDbContext>((sp, options) =>
