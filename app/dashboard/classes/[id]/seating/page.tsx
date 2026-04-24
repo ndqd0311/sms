@@ -12,7 +12,7 @@ import { StudentStatisticsModal } from '@/components/statistics/StudentStatistic
 
 export default function SeatingPage() {
   const params = useParams();
-  const router = useRouter();
+  const navigation = useRouter();
   const contextId = params.id as string;
 
   const [loading, setLoading] = useState(true);
@@ -297,7 +297,7 @@ export default function SeatingPage() {
       <div className="p-4 border-b border-slate-200 flex justify-between items-center bg-white shadow-sm z-10">
         <div className="flex items-center gap-4">
           <button 
-            onClick={() => router.push('/dashboard')}
+            onClick={() => navigation.push('/dashboard')}
             className="p-2 hover:bg-slate-100 rounded-xl text-slate-500 transition-colors"
             title="Quay lại"
           >
