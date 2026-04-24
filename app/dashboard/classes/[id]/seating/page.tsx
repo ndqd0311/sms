@@ -12,6 +12,7 @@ import { StudentStatisticsModal } from '@/components/statistics/StudentStatistic
 
 export default function SeatingPage() {
   const params = useParams();
+  const router = useRouter();
   const contextId = params.id as string;
 
   const [loading, setLoading] = useState(true);
