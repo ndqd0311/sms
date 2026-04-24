@@ -11,3 +11,16 @@ c:\Users\Admin\Downloads\student_management_system\src\Domain\obj\Debug\net10.0\
 c:\Users\Admin\Downloads\student_management_system\src\Domain\obj\Debug\net10.0\refint\Domain.dll
 c:\Users\Admin\Downloads\student_management_system\src\Domain\obj\Debug\net10.0\Domain.pdb
 c:\Users\Admin\Downloads\student_management_system\src\Domain\obj\Debug\net10.0\ref\Domain.dll
+C:\Users\Admin\Downloads\sms\src\Domain\bin\Debug\net10.0\Domain.deps.json
+C:\Users\Admin\Downloads\sms\src\Domain\bin\Debug\net10.0\Domain.dll
+C:\Users\Admin\Downloads\sms\src\Domain\bin\Debug\net10.0\Domain.pdb
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.AssemblyInfo.cs
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.sourcelink.json
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.dll
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\refint\Domain.dll
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\Domain.pdb
+C:\Users\Admin\Downloads\sms\src\Domain\obj\Debug\net10.0\ref\Domain.dll

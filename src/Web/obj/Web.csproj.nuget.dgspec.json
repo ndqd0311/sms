@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Web\\Web.csproj": {}
+    "C:\\Users\\Admin\\Downloads\\sms\\src\\Web\\Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\Application.csproj": {
+    "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -367,14 +367,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -706,14 +706,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -728,11 +728,11 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\Application.csproj"
+              "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\Application.csproj"
               },
-              "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -1086,14 +1086,14 @@
         }
       }
     },
-    "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Web\\Web.csproj": {
+    "C:\\Users\\Admin\\Downloads\\sms\\src\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\sms\\src\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Web\\Web.csproj",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Web\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -1108,14 +1108,14 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Application\\Application.csproj"
+              "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Application\\Application.csproj"
               },
-              "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

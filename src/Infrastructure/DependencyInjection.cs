@@ -18,8 +18,9 @@ public static class DependencyInjection
         string? connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
         Guard.Against.Null(connectionString, message: "Connection string not found.");
 
-        // Handle Render's postgres:// format
-        if (connectionString.StartsWith("postgres://", StringComparison.OrdinalIgnoreCase))
+        // Handle Render's postgres:// or postgresql:// format
+        if (connectionString.StartsWith("postgres://", StringComparison.OrdinalIgnoreCase) || 
+            connectionString.StartsWith("postgresql://", StringComparison.OrdinalIgnoreCase))
         {
             var databaseUri = new Uri(connectionString);
             var userInfo = databaseUri.UserInfo.Split(':');

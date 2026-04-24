@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TonsV4Nny/o=",
+  "dgSpecHash": "HicQzh4zEmY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
@@ -85,9 +85,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Infrastructure\\Infrastructure.csproj",
+      "filePath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Infrastructure\\Infrastructure.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"

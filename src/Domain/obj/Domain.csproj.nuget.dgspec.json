@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Downloads\\student_management_system\\src\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\sms\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
